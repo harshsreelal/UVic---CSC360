@@ -1,0 +1,16 @@
+V01000551
+CSC360 A01
+Harsh Sreelal
+
+Instructions to compile and run diskinfo.c/disklist.c/diskget.c/diskput.c 
+1. Compile the program by typing 'make' in the terminal. 
+2. To run the executable object code of each type:
+    a. diskinfo: ./diskinfo <disk image file> - Ex: ./diskinfo disk.IMA
+    b. disklist: ./disklist <disk image file> - Ex: ./disklist disk.IMA
+    c. diskget: ./diskget <disk image file> <file name> - Ex: ./diskget disk.IMA foo.txt
+    d. diskput: ./diskput <disk image file> <file name> - Ex: ./diskput disk.IMA foo.txt
+
+1. diskinfo gets the information of the disk image like OS Name, Label, etc.
+2. disklist lists the files that are in the disk image.
+3. diskget transfers the file from the disk system to the local Linux directory.
+4. diskput transfers the file from the local Linux directory to the disk system 
