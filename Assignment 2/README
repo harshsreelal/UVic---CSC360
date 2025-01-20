@@ -1,0 +1,21 @@
+V01000551
+CSC360 A01
+Harsh Sreelal
+
+Instructions to compile and run acs.c 
+1. Compile the program by typing 'make' in the terminal. 
+2. To run the executable object code of 'acs', enter ./acs in the terminal, along with the name of the input file. Example: "./acs customers.txt".
+
+The input file must be in the following format:
+
+- The first line contains the number of customers.
+- The following lines have the customer information:
+    1. The first integer specifies the customer ID.
+    2. It is followed by a colon.
+    3. Immediately following is an integer that specifies the class type of the customer (0 for economy, 1 for business).
+    4. It is followed by a comma.
+    5. Immediately following is an integer that specifies the arrival time of the customer.
+    6. It is followed by a comma.
+    7. Immediately following is an integer that specifies the service time of the customer.
+
+A sample input file, customers.txt, is provided.
